@@ -1,0 +1,150 @@
+body {
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.card-container {
+  background-color: #1A1B21;
+  max-width: 317px;
+  margin: 40px auto;
+  width: 95%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.headshot {
+  width: 100%;
+}
+
+.card-content-container {
+  padding: 21px 35px;
+  margin: 0 auto;
+}
+
+.card-content-header {
+  text-align: center;
+}
+
+.card-content-header > h2 {
+  margin-block: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.card-content-header > h4 {
+  color: #F3BF99;
+  margin-block: 7px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+}
+
+.card-content-header > p {
+  color: #F5F5F5;
+  margin-block: 9px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  /* identical to box height, or 15px */
+}
+
+.card-content-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.card-content-button {
+  border: none;
+  width: 115px;
+  height: 34px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-content-button-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content-button-content > * {
+  display: inline-block;
+}
+
+.card-content-button-content > p {
+  margin: 0;
+  margin-left: 8px;
+  font-size: 14;
+}
+
+.email-button {
+  background-color: white;
+  color: #374151;
+}
+
+.linkedin-button {
+  background-color: #5093E2;
+  color: white;
+}
+
+.card-content-body > h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #F5F5F5;
+}
+
+.card-content-body > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #DCDCDC;
+}
+
+.footer {
+  background: #161619;
+  color: #918E9B;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0 40px;
+}
+
+.footer-icons > li {
+  list-style: none;
+}
+
+.footer-icon {
+  width: 25px;
+  height: 25px;
+  padding: 18px 0px;
+  cursor: pointer;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
